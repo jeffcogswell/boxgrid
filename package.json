@@ -1,0 +1,22 @@
+{
+  "name": "boxgrid",
+  "version": "0.0.1",
+  "description": "jQuery Boxgrid plugin",
+  "main": "boxgrid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seelio/boxgrid.git"
+  },
+  "keywords": [
+    "jquery",
+    "boxgrid"
+  ],
+  "author": "Varoot Phasuthadol",
+  "bugs": {
+    "url": "https://github.com/seelio/boxgrid/issues"
+  },
+  "homepage": "https://github.com/seelio/boxgrid#readme"
+}
