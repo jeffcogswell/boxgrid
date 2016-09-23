@@ -62,7 +62,9 @@
     self = this;
     options = this.options;
     items = this.element.find(options.items);
-    var is_touch_device = !!('ontouchstart' in window) || !!('onmsgesturechange' in window);
+    //var is_touch_device = !!('ontouchstart' in window) || !!('onmsgesturechange' in window);
+    // This is a temporary fix until we can sort out why the touch events are failing on Win10
+    var is_touch_device = false;
 
     if (sw) {
       items.attr('draggable', true);
